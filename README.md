@@ -30,13 +30,37 @@ Ez a readme még bővítésre és letisztításra fog kerülni.
 
 Alapág: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick>
 
+Másold az éppen kiválasztott mappába következő paranccsal:
+
+```sh
+git clone --single-branch -b oneclick https://github.com/itsthatMatthew/progalap-kornyezetek .
+```
+
 Példakóddal: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick-example>
+
+Másold le kiinduló projektként következő paranccsal:
+
+```sh
+git clone --single-branch -b oneclick-example https://github.com/itsthatMatthew/progalap-kornyezetek
+```
 
 ### CMake - komplexebb projektekhez
 
 Alapág: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake>
 
+Másold az éppen kiválasztott mappába következő paranccsal:
+
+```sh
+git clone --single-branch -b cmake https://github.com/itsthatMatthew/progalap-kornyezetek .
+```
+
 Példakóddal: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake-example>
+
+Másold le kiinduló projektként következő paranccsal:
+
+```sh
+git clone --single-branch -b cmake-example https://github.com/itsthatMatthew/progalap-kornyezetek
+```
 
 ## Hibajelzés és javítás
 
