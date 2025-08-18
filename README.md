@@ -34,19 +34,17 @@ Ha ez nem sikerül, VS Code-ból a bővítmények (*Extensions*, `Ctrl + Shift +
 Mindezek után az alábbira lesz még szükséged: <https://git-scm.com/downloads>
 Ez teszi lehetővé, hogy a projektben előkészített környezeteket le tudd tölteni a saját gépredre. A verziókezelés bugyraiba most nem is tervezek belemenni, de hidd el, rengeteg sok minden más miatt is hasznos lesz még, ha ezt itt és most letöltöd.
 
-### "Egy-kattintásos" környezet
+### Egy-kattintásos környezet
 
-Alapág: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick>
+Kifejezetten a félév elején hasznos, hogy ameddig csak egy forrsáfájlba dolgoztok (nevezzük ezt most `main.c`-nek), addig csak ezt az egy fájlt le tudjátok fordítani, futtatni és debuggolni. Az egy-kattintásos (*oneclick*) környezett ezért is lett összerakva, két külön módon is ezt a funkcionalitást támogatja. Debuggolásra kifejezetten nagy hangsúlyt szeretnék fektetni, mert ez a programozásnak egy borzasztóan fontos eleme, azonban a részeltek között mindig elveszik - ez a projekt is igazából azért jött létre, hogy ezt segítse. Több leírást és kifejtést, hogy a debuggolást hogyan végezzétek, [a példaághoz tartozó README-ben találtok](https://github.com/itsthatMatthew/progalap-kornyezetek/blob/oneclick-example/README.md).
 
-Másold az éppen kiválasztott mappába következő paranccsal:
+Ha csak magát az egy-kattintásos környezetet szeretnétek elérni, azt az alábbi linken megtehetitek: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick>. Illetve az éppen kiválasztott mappába lemásolhatjátok a konficurációs fájlokat a következő paranccsal:
 
 ```sh
 git clone --single-branch -b oneclick https://github.com/itsthatMatthew/progalap-kornyezetek .
 ```
 
-Példakóddal: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick-example>
-
-Másold le kiinduló projektként következő paranccsal:
+Ha viszont egy olyan példaprojekt érdekel, ahol a környezet használata is ki van fejtve és be van mutatva, azt az alábbi linken éritek el: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick-example>. Ezt kiinduló projektként következő paranccsal tudjátok lemásolni:
 
 ```sh
 git clone --single-branch -b oneclick-example https://github.com/itsthatMatthew/progalap-kornyezetek
@@ -54,17 +52,15 @@ git clone --single-branch -b oneclick-example https://github.com/itsthatMatthew/
 
 ### CMake - komplexebb projektekhez
 
-Alapág: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake>
+Összetett, többforrásos projektek csapdája, hogy a tisztességes fordításuk C és C++ nyelvekkel kifejezetten körülményes. Erre az évek során számtalan megoldás készült, itt most CMake van eszközként segítségül véve. Többforásos projekt lehet egy összetettebb labor, de különösképpen az infós nagyházi is, ahol adott elvárás, hogy a kód több forrás- és fejlécfájlra legyen tagolva. Ezek fordítására, futtatására és debuggolására ez a környezet mind fel van készítve. Amennyiben több információ érdekel a CMake, illetve a környezet használatáról, [azt a példaághoz tartozó README-ben találtok](https://github.com/itsthatMatthew/progalap-kornyezetek/blob/cmake-example/README.md).
 
-Másold az éppen kiválasztott mappába következő paranccsal:
+Ha csak magát a CMake környezetet szeretnétek elérni, azt az alábbi linken megtehetitek: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake>. Illetve az éppen kiválasztott mappába lemásolhatjátok a konficurációs fájlokat a következő paranccsal:
 
 ```sh
 git clone --single-branch -b cmake https://github.com/itsthatMatthew/progalap-kornyezetek .
 ```
 
-Példakóddal: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake-example>
-
-Másold le kiinduló projektként következő paranccsal:
+Ha viszont egy olyan példaprojekt érdekel, ahol a környezet használata is ki van fejtve és be van mutatva, azt az alábbi linken éritek el: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake-example>. Ezt kiinduló projektként következő paranccsal tudjátok lemásolni:
 
 ```sh
 git clone --single-branch -b cmake-example https://github.com/itsthatMatthew/progalap-kornyezetek
