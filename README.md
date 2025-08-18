@@ -23,16 +23,22 @@ Mindezek mellett szinte kötelező jelleggel említem meg, hogy a C (*illetve C+
 ### Előkészületek
 
 - **Visual Studio Code:**
-A projekt kifejezetten a Visual Studio Code környezethez készült, ezen kívül nem is nagyon hasznosítható. Ezt az alábbi linkről tudod letölteni: <https://code.visualstudio.com/>.
-Az installer futtatásán túl nem kéne, hogy több dolgod legyen vele. Mindenképpen töltsd le, és indítsd el.
+
+  A projekt kifejezetten a Visual Studio Code környezethez készült, ezen kívül nem is nagyon hasznosítható. Ezt az alábbi linkről tudod letölteni: <https://code.visualstudio.com/>.
+
+  Az installer futtatásán túl nem kéne, hogy több dolgod legyen vele. Mindenképpen töltsd le, és indítsd el.
 
 - **Dev Containers bővítmény:**
-Ha az előző lépéssel megvagy, az alábbi bővítményt kell hozzáadnod: <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>.
-Ha ez nem sikerül, VS Code-ból a bővítmények (*Extensions*, `Ctrl + Shift + X`) panelon találod. Innen a következőre keress rá: `Dev Containers`, és kattints az `Install` gombra. Ennek automatikusan le kéne futnia.
+  Ha az előző lépéssel megvagy, az alábbi bővítményt kell hozzáadnod: <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>.
+  
+  Ha ez nem sikerül, VS Code-ból a bővítmények (*Extensions*, `Ctrl + Shift + X`) panelon találod. Innen a következőre keress rá: `Dev Containers`, és kattints az `Install` gombra. Ennek automatikusan le kéne futnia.
 
 - **Git:**
-Mindezek után az alábbira lesz még szükséged: <https://git-scm.com/downloads>.
-Ez teszi lehetővé, hogy a projektben előkészített környezeteket le tudd tölteni a saját gépredre. A verziókezelés bugyraiba most nem is tervezek belemenni, de hidd el, rengeteg sok minden más miatt is hasznos lesz még, ha ezt itt és most letöltöd.
+  Mindezek után az alábbira lesz még szükséged: <https://git-scm.com/downloads>.
+
+  Ez teszi lehetővé, hogy a projektben előkészített környezeteket le tudd tölteni a saját gépredre. A verziókezelés bugyraiba most nem is tervezek belemenni, de hidd el, rengeteg sok minden más miatt is hasznos lesz még, ha ezt itt és most letöltöd.
+
+Ha ezekkel mind megvagy, a pontos használatukat minden környezet saját példaága bemutatja.
 
 ### Egy-kattintásos környezet
 
