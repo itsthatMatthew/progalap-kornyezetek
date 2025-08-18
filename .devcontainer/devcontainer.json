@@ -1,0 +1,15 @@
+{
+  "name": "ProgAlap1 CMake - Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake"
+      ]
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git gcc gdb make cmake && sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/*"
+}
