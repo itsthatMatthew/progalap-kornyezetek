@@ -76,6 +76,6 @@ git clone --single-branch -b cmake-example https://github.com/itsthatMatthew/pro
 
 ## Hibajelzés és javítás
 
-Amennyiben hibát tapasztalnál, azt jelentsd [itt githubon](https://github.com/itsthatMatthew/progalap-kornyezetek/issues/new).
+Amennyiben hibát tapasztalnál, azt jelentsd [itt githubon](https://github.com/itsthatMatthew/progalap-kornyezetek/issues/new?template=hiba.md).
 
-Ha szívesen beledolgoznál valami újdonságot a repóba, nyugodtan forkold és majd jöhet a PR. Mindent a saját branchén tarts, ha pedig ezen túlmutató igényed lenne, arra nyiss előtte egy issuet kérlek megtárgyalni (van megfelelő label).
+Ha szívesen beledolgoznál valami újdonságot a repóba, nyugodtan forkold és majd jöhet a PR. Mindent a saját branchén tarts, ha pedig ezen túlmutató igényed lenne, azt kérlek jegyezd be [megtárgyalni](https://github.com/itsthatMatthew/progalap-kornyezetek/discussions), vagy nyiss előtte rá egy [issuet fejlesztésként](https://github.com/itsthatMatthew/progalap-kornyezetek/issues/new?template=fejleszt%C3%A9s.md) (van megfelelő label).
