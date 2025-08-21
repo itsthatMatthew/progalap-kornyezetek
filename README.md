@@ -49,13 +49,13 @@ Ha ezekkel mind megvagy, a pontos használatukat minden környezet saját példa
 Ha csak magát az egy-kattintásos környezetet szeretnétek elérni, azt az alábbi linken megtehetitek: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick>. Illetve az éppen kiválasztott mappába lemásolhatjátok a konficurációs fájlokat a következő paranccsal:
 
 ```sh
-git clone --single-branch -b oneclick https://github.com/itsthatMatthew/progalap-kornyezetek .
+git clone --single-branch -b oneclick https://github.com/itsthatMatthew/progalapkornyezetek .
 ```
 
 Ha viszont egy olyan példaprojekt érdekel, ahol a környezet használata is ki van fejtve és be van mutatva, azt az alábbi linken éritek el: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/oneclick-example>. Ezt kiinduló projektként következő paranccsal tudjátok lemásolni:
 
 ```sh
-git clone --single-branch -b oneclick-example https://github.com/itsthatMatthew/progalap-kornyezetek
+git clone --single-branch -b oneclick-example https://github.com/itsthatMatthew/progalapkornyezetek egykattintasos-peldaprojekt
 ```
 
 ### CMake - komplexebb projektekhez
@@ -65,13 +65,13 @@ git clone --single-branch -b oneclick-example https://github.com/itsthatMatthew/
 Ha csak magát a CMake környezetet szeretnétek elérni, azt az alábbi linken megtehetitek: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake>. Illetve az éppen kiválasztott mappába lemásolhatjátok a konficurációs fájlokat a következő paranccsal:
 
 ```sh
-git clone --single-branch -b cmake https://github.com/itsthatMatthew/progalap-kornyezetek .
+git clone --single-branch -b cmake https://github.com/itsthatMatthew/progalapkornyezetek .
 ```
 
 Ha viszont egy olyan példaprojekt érdekel, ahol a környezet használata is ki van fejtve és be van mutatva, azt az alábbi linken éritek el: <https://github.com/itsthatMatthew/progalap-kornyezetek/tree/cmake-example>. Ezt kiinduló projektként következő paranccsal tudjátok lemásolni:
 
 ```sh
-git clone --single-branch -b cmake-example https://github.com/itsthatMatthew/progalap-kornyezetek
+git clone --single-branch -b cmake-example https://github.com/itsthatMatthew/progalapkornyezetek cmake-peldaprojekt
 ```
 
 ## Hibajelzés és javítás
