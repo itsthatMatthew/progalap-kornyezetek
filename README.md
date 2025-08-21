@@ -44,7 +44,7 @@ Mindezek mellett szinte kötelező jelleggel említem meg, hogy a C (*illetve C+
 
   - **WSL** (Windows platformon)
 
-    Dev Containers Windows platformon történő futtatásához elengedhetetlen, hogy WSL2 telepítve legyen a gépeden. Ennek VS Code integrációjához szükséges a [WSL bővítmény](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl). Ezt a Dev Containers bővítmény automatikusan feldobja telepítésre, ha szükséges, de előre is megteheted. Még ezelőtt érdemes lehet magát a [WSL-t is külön telepíteni](https://learn.microsoft.com/en-us/windows/wsl/install), hogy minél kevesebb minden akadhasson be, de a bővítmény és képes rá, ha szükséges.
+    Dev Containers Windows platformon történő futtatásához elengedhetetlen, hogy WSL2 telepítve legyen a gépeden. Ennek VS Code integrációjához szükséges a [WSL bővítmény](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl). Ezt a Dev Containers bővítmény automatikusan feldobja telepítésre, ha szükséges, de előre is megteheted. Még ezelőtt érdemes lehet magát a [WSL-t is külön telepíteni](https://learn.microsoft.com/en-us/windows/wsl/install), hogy minél kevesebb minden akadhasson be, de a bővítmény is képes rá, ha szükséges.
 
 Ha ezekkel mind megvagy, a pontos használatukat minden környezet saját példaága bemutatja, ezekre később találsz hivatkozásokat.
 
