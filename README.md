@@ -22,11 +22,19 @@ Mindezek mellett szinte kötelező jelleggel említem meg, hogy a C (*illetve C+
 
 ### Előkészületek
 
+- **Git:**
+
+  Git teszi lehetővé, hogy a projektben előkészített környezeteket le tudd tölteni a saját gépredre. Ezt az alábbi linkről tudod letölteni: <https://git-scm.com/downloads>.
+  
+  A verziókezelés bugyraiba most nem is tervezek belemenni, de hidd el, rengeteg sok minden más miatt is hasznos lesz még, ha ezt itt és most letöltöd, és egyelőre csak hagyod létezni a gépeden.
+
 - **Visual Studio Code:**
 
   A projekt kifejezetten a Visual Studio Code környezethez készült, ezen kívül nem is nagyon hasznosítható. Ezt az alábbi linkről tudod letölteni: <https://code.visualstudio.com/>.
 
   Az installer futtatásán túl nem kéne, hogy több dolgod legyen vele. Mindenképpen töltsd le, és indítsd el.
+
+> Git és VS Code letöltésére használhatsz akár konzolos csomagkezelőt is (winget/apt).
 
 - **Dev Containers bővítmény:**
 
@@ -34,11 +42,9 @@ Mindezek mellett szinte kötelező jelleggel említem meg, hogy a C (*illetve C+
   
   Ha ez nem sikerül, VS Code-ból a bővítmények (*Extensions*, `Ctrl + Shift + X`) panelon találod. Innen a következőre keress rá: `Dev Containers`, és kattints az `Install` gombra. Ennek automatikusan le kéne futnia.
 
-- **Git:**
+  - **WSL** (Windows platformon)
 
-  Mindezek után az alábbira lesz még szükséged: <https://git-scm.com/downloads>.
-
-  Ez teszi lehetővé, hogy a projektben előkészített környezeteket le tudd tölteni a saját gépredre. A verziókezelés bugyraiba most nem is tervezek belemenni, de hidd el, rengeteg sok minden más miatt is hasznos lesz még, ha ezt itt és most letöltöd, és egyelőre csak hagyod létezni a gépeden.
+    Dev Containers Windows platformon történő futtatásához elengedhetetlen, hogy WSL2 telepítve legyen a gépeden. Ennek VS Code integrációjához szükséges a [WSL bővítmény](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl). Ezt a Dev Containers bővítmény automatikusan feldobja telepítésre, ha szükséges, de előre is megteheted. Még ezelőtt érdemes lehet magát a [WSL-t is külön telepíteni](https://learn.microsoft.com/en-us/windows/wsl/install), hogy minél kevesebb minden akadhasson be, de a bővítmény és képes rá, ha szükséges.
 
 Ha ezekkel mind megvagy, a pontos használatukat minden környezet saját példaága bemutatja, ezekre később találsz hivatkozásokat.
 
