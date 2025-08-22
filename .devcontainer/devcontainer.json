@@ -1,5 +1,5 @@
 {
-  "name": "ProgAlap1 CMake - Dev Container",
+  "name": "ProgAlap CMake - Dev Container",
   "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
   "customizations": {
     "vscode": {
