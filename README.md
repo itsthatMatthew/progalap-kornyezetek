@@ -4,6 +4,9 @@
 
 - [Motiváció](#motiváció)
 - [Hogyan használd](#hogyan-használd)
+  - [Előkészületek](#előkészületek)
+  - [Egy-kattintásos környezet](#egy-kattintásos-környezet)
+  - [CMake - komplexebb projektekhez](#cmake---komplexebb-projektekhez)
 - [Hibajelzés és javítás](#hibajelzés-és-javítás)
 
 ## Motiváció
