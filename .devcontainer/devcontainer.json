@@ -1,5 +1,5 @@
 {
-  "name": "ProgAlap1 C - Dev Container",
+  "name": "ProgAlap - Dev Container",
   "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
   "customizations": {
     "vscode": {
