@@ -10,8 +10,8 @@ int ominous_func(int x, int y) {
 int main() {
   int a = 42, b = 0;
 
-  printf("Hello world, from a generic C program!"
-    "\nMy main contains two variables: a = %d and b = %d :3",
+  printf("Hello world, from a generic C program!\n"
+    "My main contains two variables: a = %d and b = %d :3\n",
     a, b);
 
   if (a > b) {
