@@ -51,7 +51,7 @@ Mindezek mellett szinte kötelező jelleggel említem meg, hogy a C (*illetve C+
 
 Ha ezekkel mind megvagy, a pontos használatukat minden környezet saját példaága bemutatja, ezekre később találsz hivatkozásokat.
 
-### Egy-kattintásos környezet
+### [Egy-kattintásos környezet](https://github.com/itsthatMatthew/progalapkornyezetek/tree/oneclick-example)
 
 > Kifejezetten a félév elején hasznos, hogy ameddig csak egy forrsáfájlba dolgoztok, addig csak ezt az egy fájlt le tudjátok fordítani, futtatni és debuggolni. Az egy-kattintásos (*oneclick*) környezett ezért is lett összerakva, két külön módon is ezt a funkcionalitást támogatja. Debuggolásra kifejezetten nagy hangsúlyt szeretnék fektetni, mert ez a programozásnak egy borzasztóan fontos eleme, azonban a részeltek között mindig elveszik - ez a projekt is igazából azért jött létre, hogy ezt segítse. Több leírást és kifejtést, hogy a debuggolást hogyan végezzétek, [a példaághoz tartozó README-ben találtok](https://github.com/itsthatMatthew/progalap-kornyezetek/blob/oneclick-example/README.md).
 
@@ -67,7 +67,7 @@ Ha viszont egy olyan példaprojekt érdekel, ahol a környezet használata is ki
 git clone --single-branch -b oneclick-example https://github.com/itsthatMatthew/progalapkornyezetek egykattintasos-peldaprojekt
 ```
 
-### CMake - komplexebb projektekhez
+### [CMake - komplexebb projektekhez](https://github.com/itsthatMatthew/progalapkornyezetek/tree/cmake-example)
 
 > Összetett, többforrásos projektek csapdája, hogy a tisztességes fordításuk C és C++ nyelvekkel kifejezetten körülményes. Erre az évek során számtalan megoldás készült, itt most CMake van eszközként segítségül véve. Többforásos projekt lehet egy összetettebb labor, de különösképpen az infós nagyházi is, ahol adott elvárás, hogy a kód több forrás- és fejlécfájlra legyen tagolva. Ezek fordítására, futtatására és debuggolására ez a környezet mind fel van készítve. Amennyiben több információ érdekel a CMake, illetve a környezet használatáról, azt [a példaághoz tartozó README-ben találtok](https://github.com/itsthatMatthew/progalap-kornyezetek/blob/cmake-example/README.md).
 
